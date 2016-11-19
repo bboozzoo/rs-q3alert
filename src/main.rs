@@ -3,7 +3,7 @@ extern crate env_logger;
 
 use std::net::UdpSocket;
 use std::time::Duration;
-use std::io::{Error, ErrorKind};
+use std::io::ErrorKind;
 use std::env;
 use std::process::exit;
 
