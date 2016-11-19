@@ -27,7 +27,7 @@ fn main()
 
     info!("starting up, host addr {}", addr);
 
-    let mut sock = UdpSocket::bind("0.0.0.0:0").unwrap();
+    let sock = UdpSocket::bind("0.0.0.0:0").unwrap();
     sock.set_read_timeout(Some(Duration::from_secs(5))).unwrap();
 
     loop {
