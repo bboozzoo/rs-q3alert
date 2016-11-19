@@ -1,0 +1,9 @@
+[package]
+name = "q3alert"
+version = "0.1.0"
+authors = ["Maciek Borzecki <maciek.borzecki@gmail.com>"]
+
+[dependencies]
+notify-rust = "3.2.1"
+env_logger = "0.3.5"
+log = "0.3.6"
